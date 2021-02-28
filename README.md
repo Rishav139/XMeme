@@ -23,7 +23,7 @@ For crio Assessment
 - PATCH /memes/:id - update a meme with the given ID
 
 For deployment 
-- GET / - list of last 100 memes and submit form 
+- GET / - list of memes uploaded and submit form 
 - POST / - for posting meme using form
 - GET /edit/meme - for editing the url and caption
 
