@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 app.use(bodyParser.json());
 
-mongoose.connect("mongodb+srv://admin:Rishav12@cluster0.2jblw.mongodb.net/MemesDB", {
+mongoose.connect("mongodb+srv://admin:*****@cluster0.2jblw.mongodb.net/MemesDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
